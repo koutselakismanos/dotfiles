@@ -1,0 +1,9 @@
+[user]
+	name = Koutselakis Manos
+	email = koutselakismanos@gmail.com
+[commit]
+	gpgsign = false
+[init]
+	defaultBranch = main
+[core]
+	editor = vim
