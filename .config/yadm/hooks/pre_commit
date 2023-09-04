@@ -1,0 +1,6 @@
+#!/bin/bash
+
+dconfFile="$HOME/.config/dconf/settings.ini"
+dconf dump /org/gnome/desktop/wm/keybindings/ > "$dconfFile"
+yadm add "$dconfFile"
+
