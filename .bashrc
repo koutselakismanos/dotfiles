@@ -145,4 +145,6 @@ alias htop="btop"
 alias vim="nvim"
 alias vi="nvim"
 
+# Mental note I am using yadm as a dotfile version manager
+
 [ -f ~/.fzf.bash ] && source ~/.fzf.bash

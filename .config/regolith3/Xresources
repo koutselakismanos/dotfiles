@@ -1,9 +1,10 @@
-!regolith.wallpaper.file: /usr/share/backgrounds/Flow_by_Emanuele_Santoro.png
-!regolith.lockscreen.wallpaper.file: /usr/share/backgrounds/Flow_by_Emanuele_Santoro.png
-!regolith.look.path: /usr/share/regolith-look/ayu-dark
 wm.binding.exit_app: q
 wm.binding.launcher.app: d 
 wm.binding.display: Shift+d
 regolith.wallpaper.file: /usr/share/backgrounds/Flow_by_Emanuele_Santoro.png
 regolith.lockscreen.wallpaper.file: /usr/share/backgrounds/Flow_by_Emanuele_Santoro.png
 regolith.look.path: /usr/share/regolith-look/default
+wm.binding.scratchpad: grave
+wm.binding.move_scratchpad: Shift+grave
+wm.binding.next_free: Ctrl+a
+wm.binding.move_next_free: Ctrl+Shift+a
