@@ -1,6 +1,6 @@
 #!/bin/bash
 
-dconfFile="$HOME/.config/dconf/settings.ini"
+dconfFile="$HOME/.config/dconf/gnome-settings.ini"
 dconf dump /org/gnome/desktop/wm/keybindings/ > "$dconfFile"
 yadm add "$dconfFile"
 
