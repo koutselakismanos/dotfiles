@@ -143,10 +143,10 @@ include $HOME/.config/regolith3/common-wm/config.d/*
 include $HOME/.config/regolith3/i3/config.d/*
 
 ###############################################################################
-##workspace "$ws1" output "DP-4"
-#workspace "$ws2" output "DP-4"
-#workspace "$ws3" output "DP-4"
-#workspace "$ws4" output "HDMI-0"
+workspace "$ws1" output "DP-4"
+workspace "$ws2" output "DP-4"
+workspace "$ws3" output "DP-4"
+workspace "$ws4" output "HDMI-0"
 
 for_window [class="Lach"] floating enable
 bindsym $mod+Ctrl+f focus mode_toggle
