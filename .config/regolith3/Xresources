@@ -25,4 +25,8 @@ wm.workspace.16.name: 16
 wm.workspace.17.name: 17
 wm.workspace.18.name: 18
 wm.workspace.19.name: 19
-regolith.look.path: /usr/share/regolith-look/dracula
+
+regolith.look.path: /usr/share/regolith-look/ayu-dark
+
+gtk.theme_name: Yaru-blue-dark
+gtk.icon_theme_name: Yaru-blue-dark

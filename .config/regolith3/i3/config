@@ -148,6 +148,7 @@ workspace "$ws2" output "DP-4"
 workspace "$ws3" output "DP-4"
 workspace "$ws4" output "HDMI-0"
 
-for_window [class="Lach"] floating enable
+for_window [urgent="latest"] focus
+for_window [class="Lach"] floating enable, border pixel 0
 bindsym $mod+Ctrl+f focus mode_toggle
 focus_follows_mouse yes

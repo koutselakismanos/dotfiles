@@ -73,6 +73,8 @@ set encoding=UTF-8
 set backupdir=~/.nvim/tmp " for the backup files
 set directory=~/.nvim/tmp " for the swap files
 
+" set autochdir
+
 "on search highlight instances
 set hlsearch
 
@@ -184,7 +186,7 @@ nmap <leader>M :Maps<CR>
 nmap <leader>t :BTags<CR>
 nmap <leader>T :Tags<CR>
 
-nmap <C-S-f> :Ag<Space>
+nmap <leader>F :Ag<Space>
 
 nnoremap <leader>; A;<ESC>
 
@@ -218,3 +220,6 @@ xmap ga <Plug>(EasyAlign)
 vnoremap <C-c> "+y
 vnoremap <C-v> "+p
 imap <C-v> <C-o>"+p
+
+nnoremap <leader>en :e ~/Documents/Notes<CR>:cd ~/Documents/Notes<CR>
+nnoremap <leader>ev :e $MYVIMRC<CR>
