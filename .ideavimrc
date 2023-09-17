@@ -1,0 +1,58 @@
+let mapleader = ' '
+
+set easymotion
+set number
+set relativenumber
+set ignorecase smartcase
+set incsearch
+set hls
+
+set surround
+set commentary
+
+"inoremap <C-l> <ESC>
+
+"map <C-s> :action SaveDocument<CR>
+"nnoremap <leader>w :w<ESC>
+" nnoremap <leader>q :action CloseEditor<CR>
+"nnoremap <C-w> :action CloseEditor<CR>
+nnoremap <leader>; A;<ESC>
+nnoremap <leader>, A,<ESC>
+
+imap jk <ESC>
+imap JK <ESC>
+noremap <leader>r :action Refactorings.QuickListPopupAction<CR>
+noremap <leader>lr :action RenameElement<CR>
+noremap <leader>lb :action ToggleLineBreakpoint<CR>
+noremap <leader>lc :action EditBreakpoint<CR>
+noremap <leader>lp :action ParameterInfo<CR>
+
+"Split window navigation and settings
+nnoremap <C-J> <C-W><C-J>
+nnoremap <C-K> <C-W><C-K>
+nnoremap <C-L> <C-W><C-L>
+nnoremap <C-H> <C-W><C-H>
+
+set clipboard+=unnamed
+
+nnoremap yy "+yy
+vnoremap y "+y
+
+nnoremap p "+p
+vnoremap p "+p
+nnoremap P "+P
+vnoremap P "+P
+
+vnoremap <C-c> "+y
+vnoremap <C-v> "+p
+imap <C-v> <C-o>"+P
+
+" nnoremap <leader>z zMzvzz
+
+" Clear highlights
+nnoremap <leader>h :noh<CR>
+
+"Keep search matches in the middle of the window and pulse the line when moving
+nnoremap n nzzzv
+nnoremap N Nzzzv
+
