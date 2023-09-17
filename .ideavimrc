@@ -1,6 +1,5 @@
 let mapleader = ' '
 
-set easymotion
 set number
 set relativenumber
 set ignorecase smartcase
@@ -9,6 +8,9 @@ set hls
 
 set surround
 set commentary
+set NERDTree
+set textobj-indent
+set easymotion
 
 "inoremap <C-l> <ESC>
 
@@ -26,6 +28,8 @@ noremap <leader>lr :action RenameElement<CR>
 noremap <leader>lb :action ToggleLineBreakpoint<CR>
 noremap <leader>lc :action EditBreakpoint<CR>
 noremap <leader>lp :action ParameterInfo<CR>
+
+map <leader><leader> <Plug>(easymotion-s)
 
 "Split window navigation and settings
 nnoremap <C-J> <C-W><C-J>
