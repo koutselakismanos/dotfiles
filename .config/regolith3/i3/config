@@ -150,5 +150,6 @@ workspace "$ws4" output "HDMI-0"
 
 for_window [urgent="latest"] focus
 for_window [class="Lach"] floating enable, border pixel 0
+for_window [class="pyro"] floating enable, border pixel 0
 bindsym $mod+Ctrl+f focus mode_toggle
 focus_follows_mouse yes

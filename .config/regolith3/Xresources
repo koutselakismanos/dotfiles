@@ -30,3 +30,6 @@ regolith.look.path: /usr/share/regolith-look/ayu-dark
 
 gtk.theme_name: Yaru-blue-dark
 gtk.icon_theme_name: Yaru-blue-dark
+regolith.wallpaper.file: /home/manos/.local/share/backgrounds/2023-09-07-20-42-44-macos-catalina-mountains-island-night-stock-5k-6016x6016-189.jpg
+regolith.lockscreen.wallpaper.file: /home/manos/.local/share/backgrounds/2023-09-07-20-42-44-macos-catalina-mountains-island-night-stock-5k-6016x6016-189.jpg
+regolith.wallpaper.options: zoom

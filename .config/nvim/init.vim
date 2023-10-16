@@ -33,6 +33,8 @@ Plug 'michaeljsmith/vim-indent-object'
 Plug 'markonm/traces.vim'
 
 ""AutoCompletion
+" Plug 'Shougo/deoplete.nvim', { 'do': ':UpdateRemotePlugins' }
+" Plug 'beeender/Comrade'
 "Plug 'neoclide/coc.nvim', {'branch': 'release'}
 "Plug 'sirver/ultisnips'
 "Plug 'honza/vim-snippets'
