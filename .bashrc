@@ -144,6 +144,7 @@ alias top="btop"
 alias htop="btop"
 alias vim="nvim"
 alias vi="nvim"
+alias k="kubectl"
 
 # Mental note I am using yadm as a dotfile version manager
 

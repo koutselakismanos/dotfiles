@@ -39,8 +39,10 @@ nnoremap <C-H> <C-W><C-H>
 
 set clipboard+=unnamed
 
+nnoremap dd "+dd
 nnoremap yy "+yy
 vnoremap y "+y
+vnoremap d "+d
 
 nnoremap p "+p
 vnoremap p "+p
